@@ -1,4 +1,4 @@
-package BOJ;
+package baek_2739;
 import java.util.Scanner;
 
 public class Nine_nine{
