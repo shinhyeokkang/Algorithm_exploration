@@ -1,4 +1,4 @@
-package baekjoon_2739;
+package BOJ;
 import java.util.Scanner;
 
 public class Nine_nine{
