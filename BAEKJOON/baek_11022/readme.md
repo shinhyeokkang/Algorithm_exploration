@@ -15,7 +15,7 @@
 ## 문제 해결 후 얻은 Insight
 
 
-### 1.nextInt() 입력방식
+### 1. nextInt() 입력방식
 
   	int num1 = sc.nextInt();
 	int num2 = sc.nextInt();//띄어쓰기당 한 인풋으로 받음
