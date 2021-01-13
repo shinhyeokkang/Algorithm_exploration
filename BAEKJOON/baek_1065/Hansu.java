@@ -19,8 +19,8 @@ public class Hansu {
 		String input = br.readLine();
 		int n = Integer.parseInt(input);
 		
-		for(int j=1;j<=n;j++) { // j¸¦ 1ºÎÅÍ ½ÃÀÛÇØ¼­ 0À» Á¦¿ÜÇÏ°í °è»ê
-			if(hanlist[j]==0){//0 °¹¼ö Ãâ·Â 
+		for(int j=1;j<=n;j++) { // jë¥¼ 1ë¶€í„° ì‹œì‘í•´ì„œ 0ì„ ì œì™¸í•˜ê³  ê³„ì‚°
+			if(hanlist[j]==0){//0 ê°¯ìˆ˜ ì¶œë ¥ 
 			count++;
 			}
 		}
@@ -38,15 +38,15 @@ public class Hansu {
 		String snum = Integer.toString(num);
 		
 		
-		if(snum.length()>2) { // ¼¼ÀÚ¸´¼ö ÀÌ»óÀÏ¶§¸¸
+		if(snum.length()>2) { // ì„¸ìë¦¿ìˆ˜ ì´ìƒì¼ë•Œë§Œ
 			String s1 = snum.substring(0,1);
 			String s2 = snum.substring(1,2);
 			String s3 = snum.substring(2);
 			int a = Integer.parseInt(s1);
 			int b = Integer.parseInt(s2);
 			int c = Integer.parseInt(s3);
-			if((a-b)!=(b-c)) { // ¼¼ ÀÚ¸´¼ö°¡ µîÂ÷¼ö¿­À» ÀÌ·ê¶§
-				hanlist[num] = 1; // ÇØ´ç ¼ıÀÚ¸¦ ÀÎµ¦½º·Î °¡Áö´Â list °ª 1·Î ¼³Á¤
+			if((a-b)!=(b-c)) { // ì„¸ ìë¦¿ìˆ˜ê°€ ë“±ì°¨ìˆ˜ì—´ì„ ì´ë£¨ì§€ ì•Šì„ë•Œ
+				hanlist[num] = 1; // í•´ë‹¹ ìˆ«ìë¥¼ ì¸ë±ìŠ¤ë¡œ ê°€ì§€ëŠ” list ê°’ 1ë¡œ ì„¤ì •
 			}
 		}
 	}
