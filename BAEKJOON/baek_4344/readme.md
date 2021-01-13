@@ -19,7 +19,7 @@
 
 ### 1. Casting
 
-    			double result = (double)count/n; // int간의 계산 결과를 double로 반드시 캐스팅해야 data loss가 생기지 않는다.
+    double result = (double)count/n; // int간의 계산 결과를 double로 반드시 캐스팅해야 data loss가 생기지 않는다.
     
 위 코드처럼 int 간의 계산을 통해 소수점 아래까지 값이 나오는 결과값을 받고 싶다면 꼭 double로 캐스팅을 해줘야한다.      
 안해보면 어떻게 나오나도 실험해봤는데 소수점아래는 깔-끔하게 무시하고 int 값으로 출력한다. 
