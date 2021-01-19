@@ -32,7 +32,7 @@ public class SumofNum {
 			sum = sum + numList[j];
 		}
 
-		bw.write(sum+"\n"); // 하지만 이렇게 개행문자를 추가해 다른 자료형을 출력하게 하면 그대로 Stirng으로 인식, 아스키코드로 출력된다.  
+		bw.write(sum+"\n"); // 하지만 이렇게 개행문자를 추가해 다른 자료형을 출력하게 하면 그대로 String으로 인식, 아스키코드로 출력된다.  
 		bw.flush();
 		bw.close();
 
